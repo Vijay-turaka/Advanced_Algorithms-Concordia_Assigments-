@@ -4,8 +4,10 @@ using namespace std;
 int main()
 {
     int n, m, size=0, value, k=0;
-    cout<<"enter inputs \n";
+    cout<<"enter size of matrix n and m \n";
+    cout<<"enter n value:";
     cin>>n;
+    cout<<"enter m value:";
     cin>>m;
 	int sMatrix[n][m];
 	for (int i = 0; i < n; i++) {
